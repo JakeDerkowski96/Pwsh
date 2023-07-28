@@ -1,3 +1,8 @@
+Function Write-Log {
+    
+}
+
+
 Function Get-RequiredModules {
     <#
     .DESCRIPTION 
