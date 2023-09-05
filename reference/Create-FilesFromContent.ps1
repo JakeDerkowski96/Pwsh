@@ -1,4 +1,4 @@
-Create-FilesFromContent.ps1
+{% comment %} Create-FilesFromContent.ps1 {% endcomment %}
 
 $content = Get-Content file.txt
 $pattern = 'your-regex-pattern'
