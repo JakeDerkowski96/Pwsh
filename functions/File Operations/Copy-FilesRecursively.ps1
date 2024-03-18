@@ -4,8 +4,8 @@ function Copy-FilesRecursively {
     # Copy-FilesRecursively -inputDirectory "C:\source" -outputDirectory "D:\destination
     #>
     param (
-        [string]$inputDirectory,
-        [string]$outputDirectory
+        [string]$inputDirectory = "C:\Users\derko\OneDrive - derkcloudsec.com\myDownloads\Detections\Detections",
+        [string]$outputDirectory = "C:\Users\derko\OneDrive - derkcloudsec.com\Sentinel\Detections"
     )
 
     # Create the output directory if it doesn't exist
